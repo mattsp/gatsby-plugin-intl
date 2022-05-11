@@ -23,7 +23,7 @@
     "prettier": "^1.19.1",
     "rimraf": "^3.0.2"
   },
-  "homepage": "https://github.com/wiziple/gatsby-plugin-intl",
+  "homepage": "https://github.com/harshnagoratela/gatsby-plugin-intl",
   "keywords": [
     "gatsby",
     "gatsby-plugin",
@@ -37,7 +37,7 @@
   "peerDependencies": {
     "gatsby": "^4.13.1"
   },
-  "repository": "https://github.com/wiziple/gatsby-plugin-intl",
+  "repository": "https://github.com/harshnagoratela/gatsby-plugin-intl",
   "scripts": {
     "build": "babel src --out-dir . --ignore **/__tests__",
     "prepare": "cross-env NODE_ENV=production npm run build",
