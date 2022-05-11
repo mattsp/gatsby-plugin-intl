@@ -1,4 +1,6 @@
-# gatsby-plugin-intl
+# gatsby-plugin-intl-v4
+
+Forked version of [gatsby-plugin-intl](https://github.com/wiziple/gatsby-plugin-intl) after removing the peer dependency of Gatsby v2
 
 Internationalize your Gatsby site.
 
