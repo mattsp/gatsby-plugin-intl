@@ -40,7 +40,7 @@ Source: [https://github.com/wiziple/gatsby-plugin-intl/tree/master/examples/gats
 
 ### Install package
 
-`npm install --save gatsby-plugin-intl`
+`npm install --save gatsby-plugin-intl-v4`
 
 ### Add a plugin to your gatsby-config.js
 
@@ -48,7 +48,7 @@ Source: [https://github.com/wiziple/gatsby-plugin-intl/tree/master/examples/gats
 // In your gatsby-config.js
 plugins: [
   {
-    resolve: `gatsby-plugin-intl`,
+    resolve: `gatsby-plugin-intl-v4`,
     options: {
       // language JSON resource path
       path: `${__dirname}/src/intl`,
@@ -80,7 +80,7 @@ You can use `injectIntl` HOC on any react components including page components.
 
 ```jsx
 import React from "react"
-import { injectIntl, Link, FormattedMessage } from "gatsby-plugin-intl"
+import { injectIntl, Link, FormattedMessage } from "gatsby-plugin-intl-v4"
 
 const IndexPage = ({ intl }) => {
   return (
@@ -100,7 +100,7 @@ export default injectIntl(IndexPage)
 Or you can use the new `useIntl` hook.
 ```jsx
 import React from "react"
-import { useIntl, Link, FormattedMessage } from "gatsby-plugin-intl"
+import { useIntl, Link, FormattedMessage } from "gatsby-plugin-intl-v4"
 
 const IndexPage = () => {
   const intl = useIntl()
